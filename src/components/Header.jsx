@@ -31,8 +31,15 @@ const StyledHeader = styled.header`
       color: #a39191;
       margin: 0;
     }
-
+    @media (min-width: 768px) {
+    margin-bottom: 4rem;
+    & h1 {
+      font-size: 2.25rem;
+    }
+  }
   `;
+
+
 
 export default function Header() {
 
